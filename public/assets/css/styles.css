@@ -1,0 +1,214 @@
+
+
+body {
+  background-color: #eee;
+}
+*{
+
+  font-family: 'Tunisia';
+}
+
+@font-face {
+  font-family: "Tunisia";
+  src: url("../fonts/tunisia.ttf") format("truetype"),
+  }
+  @font-face {
+    font-family: 'Tunisia';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Tunisia'), local('Tunisia'), url("../fonts/tunisia.ttf");
+  }
+  body{
+      font-family: "Tunisia" !important;
+  }
+.wrapper-image > img{
+    width: 100%;
+    max-height: 110px;
+    
+}
+.wrapper-image{
+    text-align: center;
+    padding:10px 15px;
+}
+.page-content-wrapper{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #fff;
+    border: 5px solid #ada9a2;
+    border-radius: 10px;
+}
+.ck-content{
+    min-height: 200px;
+}
+@media screen and (min-width:768px){
+    .page-content-wrapper{
+        margin: 25px;
+    min-height: 700px;
+    }
+    #menu-toggle{
+        display: none;
+    }
+}
+.sidebar-nav{
+    top: 120px;
+}
+.card{
+    border:none;
+    padding: 10px 15px 10px 15px;
+    background-color: #f7f3ea;
+}
+.rounded{
+    background-color: #fff;
+    border-radius: 100px !important;
+    padding-top: 10px;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    font-size: 25px;
+}
+.info-green{
+    
+    color:green;
+}
+.loading {
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	right:0;
+    left: 0;
+    bottom: 0;
+	width: 100%;
+	height: 100%;
+    background-color: #fff;
+}
+.loading-content {
+	position: absolute;
+	border: 16px solid #f7f3ea; /* Light grey */
+	border-top: 16px solid #ada9a2; /* Blue */
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	top: 40%;
+	right:45%;
+	animation: spin 2s linear infinite;
+    z-index: 99999;
+	}
+	
+	@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+	}
+.btn-default-big{
+    background: #2da134;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+.btn-secondary{
+    border-radius: 40px;
+}
+.form-control{
+    border-color: #ada9a2;
+}
+.form-control:focus{
+    border-color:#ada9a2;
+    box-shadow:0 0 0 .2rem #ada9a2;
+}
+.btn-danger-big{
+    background: red;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+.btn-primary-big{
+    background: blue;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+.btn-default{
+    background: #2da134;
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+.btn-primary{
+    background: blue;
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+.btn-danger{
+    background: red;
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+.truncate{
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.top-option{
+    padding: 0px 5px;
+    display: inline-block;
+}
+.top-option > a:hover,
+.top-option > a{
+    text-decoration:  none;
+}
+.profile-img{
+    width: 30px;
+    height:30px;
+    border-radius: 100px;
+}
+.container{
+    border-radius: 8px;
+}
+.close{
+    float: left !important;
+    margin:auto -1rem -1rem -1rem;
+}
+.sidebar-wrapper{
+    overflow-y: hidden;
+}
+/* width */
+#sidebar-wrapper::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar::hover {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ada9a2;
+  border-radius: 40px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ada9a2;
+}
